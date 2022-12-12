@@ -3,6 +3,8 @@ header {
     justify-content: flex-end;
     overflow: auto;
     height: 30px;
+    /* margin-top: 10px; */
+    
 
 }
 
@@ -20,7 +22,42 @@ section {
 }
 
 footer {
-    margin-top: 20px;
+    /* margin-top: 20px; */
     background-color: #1C2832;
-    height: 70px;
+    height: 90px;
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    justify-content: space-around;
+    color: white;
+    align-items: center;
+}
+
+
+.end {
+    color: red;
+    background-color: grey;
+    padding: 18px;
+    border: none;
+}
+
+.speaker {
+       
+     background-color: grey;
+     border-radius: 5px;
+     border: none;
+     color: white;
+     padding: 5px;
+}
+
+.window {
+
+     background-color: grey;
+     border-radius: 5px;
+     border: none;
+     font-size: 20px;
+     color: white;
+     margin-left: 10px;
+     padding: 5px;
+        
 }
