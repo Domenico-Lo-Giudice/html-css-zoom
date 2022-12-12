@@ -31,7 +31,7 @@ footer {
     display: flex;
     width: 100%;
     font-size: 30px;
-    justify-content: space-around;
+    justify-content: space-between;
     color: white;
     align-items: center;
 }
@@ -69,3 +69,9 @@ img {
     padding-bottom: 15px;
     padding-right: 5px;
 }
+
+i {
+    padding-right: 10px;
+    
+}
+
